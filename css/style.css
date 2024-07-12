@@ -214,10 +214,14 @@ h6,
 .owl-item.center .rent-item {
     background: var(--secondary);
 }
+.img-responsive2{
+    height: 65px;
+    width: 150px;
+}
 
 .team-item:hover .team-social {
     opacity: 1;
-    background: var(--secondary);
+    background: var(--secondary);   
 }
 
 .team-carousel .owl-nav,
@@ -246,6 +250,9 @@ h6,
     background: var(--primary);
     font-size: 22px;
     transition: .5s;
+}
+.w-100{
+    height: 600px;
 }
 
 .team-carousel .owl-nav .owl-prev:hover,
@@ -312,4 +319,7 @@ h6,
 .bg-banner {
     background: linear-gradient(rgba(28, 30, 50, .9), rgba(28, 30, 50, .9)), url(../img/bg-banner.jpg);
     background-attachment: fixed;
+}
+.w{
+    width: 100%;
 }
